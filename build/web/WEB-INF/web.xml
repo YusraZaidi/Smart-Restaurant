@@ -44,10 +44,6 @@
         <servlet-name>bill</servlet-name>
         <servlet-class>bill</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>sendsms</servlet-name>
-        <servlet-class>sendsms</servlet-class>
-    </servlet>
     <servlet-mapping>
         <servlet-name>NewServlet</servlet-name>
         <url-pattern>/NewServlet</url-pattern>
@@ -91,10 +87,6 @@
     <servlet-mapping>
         <servlet-name>bill</servlet-name>
         <url-pattern>/bill</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>sendsms</servlet-name>
-        <url-pattern>/sendsms</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

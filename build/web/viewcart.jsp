@@ -60,7 +60,7 @@ ResultSet qs=rs;
 	</head>
 	<body>	
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		  <a class="navbar-brand" href="Customer.jsp">BitesToBits</a>
+		  <a class="navbar-brand" href="Customer.jsp">Smart Restaurant</a>
 		  <ul class="navbar-nav">
 		    <li class="nav-item">
 		      <a class="nav-link" href="fetchmenu.jsp">Menu</a>

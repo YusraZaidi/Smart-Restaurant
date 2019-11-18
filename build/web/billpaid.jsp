@@ -5,10 +5,6 @@
 --%>
 
 
-<%@page import="java.sql.ResultSet"%>
-<%@page import="java.sql.PreparedStatement"%>
-<%@page import="java.sql.DriverManager"%>
-<%@page import="java.sql.Connection"%>
 <%-- 
     Document   : viewbill
     Created on : Apr 1, 2019, 9:15:00 PM
@@ -19,22 +15,6 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
-    <%
-        
-      //  String tableno=(String)session.getAttribute("tableNo");
-    Class.forName("com.mysql.jdbc.Driver");
-    String tableno=(String)request.getParameter("tableno");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Restaurant","root","");
-    PreparedStatement ps = con.prepareStatement("select * from order1 where tableno=?");
-    ps.setString(1,tableno);
-  int netbill=0;
-    ResultSet rs = ps.executeQuery();
- while(rs.next()){
-    String quantity=rs.getString(3);
-    int price=Integer.parseInt(rs.getString(4));
-                               int totalamt=price*Integer.parseInt(quantity);
-                                netbill=netbill+totalamt;
- }%>
 <head>
   <title>Smart Restaurants</title>
   <meta charset="utf-8">
@@ -62,7 +42,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		  <a class="navbar-brand" href="Owner.jsp">BitesToBits</a>
+		  <a class="navbar-brand" href="Owner.jsp">Smart Restaurant</a>
 		  <ul class="navbar-nav">
 		    <li class="nav-item">
 		      <a class="nav-link" href="menu.jsp">Add Item</a>
@@ -82,10 +62,9 @@
           <div class="col-md-5"></div>
           
           <div class="col-md-3">
-              <form action="bill>
+              <form action="deleteorder">
                   <div class="form-group">
                       <center><h2>Bill Status</h2></center>
-                      <input type="hidden" value="<%=netbill%>" name="total">
       <input type="number" class="form-control" id="email" placeholder="Enter Table No." name="tableno">
     </div>
                   <center><button type="submit" class="btn btn-block btn-primary">Bill Paid</button></center>

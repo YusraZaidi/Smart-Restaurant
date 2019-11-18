@@ -60,7 +60,7 @@
     %>
 	<body>	
 		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		  <a class="navbar-brand" href="Owner.jsp">BitesToBits</a>
+		  <a class="navbar-brand" href="Owner.jsp">Smart Restaurant</a>
 		  <ul class="navbar-nav">
 		    <li class="nav-item">
 		      <a class="nav-link" href="menu.jsp">Add Item</a>

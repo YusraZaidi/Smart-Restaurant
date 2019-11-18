@@ -48,7 +48,7 @@
 	<div class="row">
 		
 	</div>
-  <h2 id="a1">BitesToBits</h2>
+  <h2 id="a1">Smart Restaurants</h2>
   
   <div class="card-deck">
     <div class="card bg-primary">

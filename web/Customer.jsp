@@ -12,7 +12,7 @@ String table=(String)request.getSession().getAttribute("tableNo");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BitesToBits</title>
+	<title>Smart Restaurant</title>
 	<!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -76,7 +76,7 @@ String table=(String)request.getSession().getAttribute("tableNo");
 				</div>
 			</div>
 			<div class="footer" id="d3">
-				<span >&copy; 2019 BitesToBits</span>
+				<span >&copy; 2019 Smart Restaurant</span>
 					<ul class="right">
 						<li>
 							<a href=""><i class="fa fa-facebook-square" style="font-size:24px"></i>

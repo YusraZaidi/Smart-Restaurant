@@ -13,7 +13,7 @@
 
 <html>
 <head>
-	<title>BitesToBits</title>
+	<title>Smart Restaurant</title>
 	<!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,7 +38,7 @@
 				<div class="logo">
 						<a href="Customer.jsp" >
 							<img src="">
-							<p>BitesToBits</p>
+							<p>SMART RESTAURANT</p>
 
 						</a>
 				 		
@@ -51,7 +51,7 @@
 				 	
 				</div>
 				<div class="cart" >
-					<a href="viewcart.jsp" style="color: #90887c; ">CART <i class='fas fa-shopping-cart ' style='font-size:14px;color: #ae8648;'></i></a>
+					<a href="#cart" style="color: #90887c; ">CART <i class='fas fa-shopping-cart ' style='font-size:14px;color: #ae8648;'></i></a>
 
 				</div>
 
@@ -105,7 +105,7 @@
 
 
 			<div class="footer">
-				<span >&copy; 2019 BitesToBits</span>
+				<span >&copy; 2019 company name</span>
 					<ul class="right">
 						<li>
 							<a href=""><i class="fa fa-facebook-square" style="font-size:24px"></i>
